@@ -2,6 +2,12 @@
 
 Use the browser's localStorage API with [duet](https://github.com/colingourlay/duet) by reading and writing asynchronously across threads.
 
+```
+$ npm install duet-local-storage
+```
+
+## Usage
+
 ```javascript
 var duet         = require('duet');
 var channel      = require('duet-local-storage/channel');
