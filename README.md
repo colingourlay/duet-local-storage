@@ -28,7 +28,7 @@ Everything is as you would expect on the localStorage API, except for a couple o
 * `length` is a method rather than a property.
 * All read operations (`getItem`, `key` & `length`) require a callback because they need to be asynchronous.
 
-Also, `localStorage` is a convenience method which execute `getItem` when the second argument is a callback function, and `setItem` when it's a string.
+Also, `localStorage` is a convenience method which executes `getItem` when the second argument is a callback function, and `setItem` when it's a string.
 
 ## Example
 
