@@ -1,0 +1,22 @@
+{
+  "name": "duet-local-storage",
+  "version": "1.0.0",
+  "description": "Use the browser's localStorage API with duet by reading and writing asynchronously across threads.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/colingourlay/duet-local-storage.git"
+  },
+  "author": "Colin Gourlay <colin@colin-gourlay.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colingourlay/duet-local-storage/issues"
+  },
+  "homepage": "https://github.com/colingourlay/duet-local-storage",
+  "dependencies": {
+    "duet-channel": "^1.0.0"
+  }
+}
